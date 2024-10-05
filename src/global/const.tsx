@@ -29,6 +29,6 @@ export const othersFilmsStarWars = [
       "No árido planeta de Tatooine, alguns desses renegados acabam em conflito com Coda, O Hutt, um influente líder do crime local.",
       "Acossados no pequeno espaçoporto de Mos Shuuta, a única chance de fuga dos renegados é roubar uma nave e escapar das forças de Coda. Por sorte, uma nave de transporte da Série YT acaba de aterrissar em um dos hangares. Seu capitão, um Trandoshan escravagista chamado Trex, pode ser a chave para a fuga. Tentando despistar seus caçadores, os renegados entram em uma cantina local para se esconder sob o calor implacável das ruas de Tatooine......",
     ],
-    episode_id: 10
+    episode_id: 3
   }
 ];

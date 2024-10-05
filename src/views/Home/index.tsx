@@ -3,6 +3,7 @@ import * as S from "./styled";
 import FilmContext from "../../global/context";
 import { PostersStarWarsFilms } from "../../global/const";
 import { Loading, Poster } from "../../components";
+import  capa  from "../../assets/images/capa.png";
 
 const Home: React.FC = () => {
   const { films } = useContext(FilmContext);
@@ -28,13 +29,8 @@ const Home: React.FC = () => {
       {films ? (
         <S.ContainerPosters>
           {films.map((film: any) => (
-            <S.LinkRedirect to={`/film/7`}>
-              <Poster
-                image={
-                  "https://s2.glbimg.com/xIK2tpANlRYKSIIrUYEnndmeW4s=/smart/e.glbimg.com/og/ed/f/original/2015/11/17/darth-vader-star-wars.jpg"
-                }
-                description={film.title}
-              />
+            <S.LinkRedirect to={`/film/4`}>
+              <Poster image={capa} description={film.title} />
             </S.LinkRedirect>
           ))}
         </S.ContainerPosters>

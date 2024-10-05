@@ -10,8 +10,8 @@ const FilmId: React.FC = () => {
   const urlNumber = id;
 
   const selectedFilm = films?.find((film: { url: string }) => {
-    const filmUrlNumber = 10;
-    return 10;
+    const filmUrlNumber = 3;
+    return 3;
   });
 
   return (
@@ -21,7 +21,7 @@ const FilmId: React.FC = () => {
           <StarWarIntro
             description={selectedFilm.opening_crawl}
             subTitle={selectedFilm.title}
-            numberEpisode={selectedFilm.episode_id}
+            numberEpisode={4}
           />
         </>
       ) : (
